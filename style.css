@@ -75,6 +75,8 @@ ul {
    display: flex;
    justify-content: flex-end;
    margin-right: 50px;
+   font-size: 15px;
+   color:#5b5b5d
    
 }
 .containerabox {
@@ -105,4 +107,13 @@ ul {
   color: white;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.footer {
+  background-color: #1F2937;
+    height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
