@@ -1,0 +1,105 @@
+body {
+font-family: Roboto, sans-serif;}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.header2 {
+    background-color: #1f2937;
+    color: #f9faf8;
+    
+}
+
+.header2-text {
+  display: block;
+   
+}
+
+.header2, .imghero {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.imghero {
+    padding-bottom: 40px;
+}
+
+.infobox {
+  text-align: center;
+
+  }
+.info {
+  max-width: 200px;
+}
+ 
+.information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px
+}
+.infotitle {
+  margin-bottom: 50px
+}
+.quote {
+    background-color: #E5E7EB;
+    color:#1f2937;
+    font-size: 26px;
+    font-style: italic;
+    display: block;
+    text-align: center;   
+    padding: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+ 
+}
+
+.sign {
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 50px;
+   
+}
+.containerabox {
+  padding: 60px 0;
+}
+
+.box {
+    background-color: #3882f6;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   padding: 50px 90px;
+   border-radius: 10px;
+}
+.txt1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.txt2 {
+  font-size: 14px;
+  color: #e5e7eb;
+}
+.signupbtn {
+  padding: 8px 30px;
+     border: 2px white solid;
+   background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
